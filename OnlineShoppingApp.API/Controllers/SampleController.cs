@@ -14,6 +14,7 @@ namespace OnlineShoppingApp.API.Controllers
         public IActionResult Put()
         {
             return Ok("Sample API received a PUT request!");
+        }
         public IActionResult Post()
         {
             return Ok("Post Request");
