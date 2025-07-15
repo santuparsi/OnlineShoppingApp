@@ -11,5 +11,9 @@ namespace OnlineShoppingApp.API.Controllers
         {
             return Ok("Sample API is working!");
         }
+        public IActionResult Put()
+        {
+            return Ok("Sample API received a PUT request!");
+        }
     }
 }
